@@ -1,0 +1,27 @@
+body {
+  display: flex;
+}
+.container {
+  flex-direction: column;
+  border: 1px solid black;
+  width: 200px;
+  height: 400px;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  display: flex;
+  text-align: center;
+}
+#circle,
+#rectangle {
+  border: 1px solid black;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
+#circle {
+  background-color: blue;
+  border-radius: 50%;
+}
+#rectangle {
+    background-color: green;
+}
